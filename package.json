@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "yarn build && sudo su && port=80 serve -s build"
+    "serve": "yarn build && port=8000 serve -s build"
   },
   "eslintConfig": {
     "extends": [
